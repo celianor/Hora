@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Us - Horia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f7f0;
+      color: #333;
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+    }
+    h1 {
+      color: #2e7d32;
+    }
+    form {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #a5d6a7;
+      border-radius: 6px;
+      resize: vertical;
+    }
+    button {
+      background-color: #2e7d32;
+      color: white;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #1b5e20;
+    }
+    .email {
+      margin-top: 1rem;
+      font-weight: bold;
+      color: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Us</h1>
+  <p>
+    We welcome your questions, suggestions, and thoughts. Please feel free to reach out via email or the contact form below. We will do our best to respond promptly.
+  </p>
+  <div class="email">Email: contact@horia.org</div>
+
+  <form>
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Question or Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</body>
+</html>
