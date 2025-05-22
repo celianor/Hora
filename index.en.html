@@ -1,98 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <title>
-   Horia
-  </title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<head>
+  <meta charset="UTF-8" />
+  <title>Welcome – Horia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-   body {
-    font-family: sans-serif;
-    background-color: #d4edda;
-    padding: 2rem;
-    text-align: center;
-    color: #222;
-  }
-  .lang-menu {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    font-size: 0.9rem;
-  }
-  nav {
-    margin-top: 3rem;
-  }
-  nav a {
-    display: inline-block;
-    margin: 0.5rem 1rem;
-    text-decoration: none;
-    color: #006400;
-    font-weight: bold;
-  }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+      padding: 2rem;
+      text-align: center;
+      color: #333;
+    }
 
-.language-menu a {
-  display: inline-block;
-  margin: 0 0.3rem;
-  padding: 0.3rem 0.6rem;
-  background-color: rgba(255, 255, 255, 0.6);
-  color: #333;
-  border: 1px solid #aaa;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 0.9rem;
-  transition: background-color 0.3s;
-}
-.language-menu a:hover {
-  background-color: rgba(255, 255, 255, 0.9);
-}
+    h1 {
+      font-size: 2.5rem;
+      color: #2e7d32;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    .nav-buttons {
+      margin-top: 3rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .nav-btn {
+      padding: 12px 24px;
+      background-color: #81c784;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.2s;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-btn:hover {
+      background-color: #66bb6a;
+      transform: scale(1.05);
+    }
+
+    .lang-switch {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .lang-switch a {
+      background-color: #c8e6c9;
+      color: #2e7d32;
+      padding: 6px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .lang-switch a:hover {
+      background-color: #a5d6a7;
+    }
   </style>
- </head>
- <body>
-  <div class="lang-menu">
-   <a href="index.en.html">
-    English
-   </a>
-   |
-   <a href="index.fr.html">
-    Français
-   </a>
-   |
-   <a href="index.es.html">
-    Español
-   </a>
-   |
-   <a href="index.ar.html">
-    العربية
-   </a>
-   |
-   <a href="index.fa.html">
-    فارسی
-   </a>
+</head>
+<body>
+
+  <h1>Welcome to Horia</h1>
+  <p>A home for compassion, reason, freedom, and light.</p>
+
+  <div class="nav-buttons">
+    <a href="book.en.html" class="nav-btn">The Book of Light</a>
+    <a href="writings.en.html" class="nav-btn">Writings</a>
+    <a href="music.en.html" class="nav-btn">Music</a>
+    <a href="stories.en.html" class="nav-btn">Stories</a>
+    <a href="contact.en.html" class="nav-btn">Contact</a>
   </div>
-  <h1>
-   Welcome to Horia
-  </h1>
-  <p>
-   This is a home for kindness, reason, freedom, and clarity.
-  </p>
-  <nav>
-   <a href="#">
-    The Book of Light
-   </a>
-   <a href="#">
-    Writings
-   </a>
-   <a href="#">
-    Music
-   </a>
-   <a href="#">
-    Stories
-   </a>
-   <a href="#">
-    Contact
-   </a>
-  </nav>
- </body>
+
+  <div class="lang-switch">
+    <a href="index.en.html">English</a>
+    <a href="index.fr.html">Français</a>
+    <a href="index.es.html">Español</a>
+    <a href="index.ar.html">العربية</a>
+    <a href="index.fa.html">فارسی</a>
+  </div>
+
+</body>
 </html>
