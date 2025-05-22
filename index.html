@@ -2,76 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Horia – خانه‌ای برای همه</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome – Horia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <style>
     body {
-      margin: 0;
-      font-family: sans-serif;
-      background-color: #c7f0b4; /* سبز روشن */
-      color: #222;
-      text-align: center;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, #d1f0dc, #f1fdf9);
+      background-size: cover;
       padding: 2rem;
-    }
-
-    .language-switch {
-      position: absolute;
-      top: 1rem;
-      right: 1rem;
-    }
-
-    .language-switch img {
-      width: 24px;
-      height: 24px;
-      margin-left: 0.5rem;
-      cursor: pointer;
-    }
-
-    nav {
-      background: #fff;
-      padding: 1rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      margin-bottom: 2rem;
-    }
-
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #005a36;
-      font-weight: bold;
-      font-size: 1.1rem;
+      text-align: center;
+      color: #222;
     }
 
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+      font-size: 3rem;
+      color: #2e7d32;
+      margin-bottom: 1rem;
     }
 
     p {
-      font-size: 1.2rem;
-      color: #333;
+      font-size: 1.4rem;
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+
+    nav {
+      margin-top: 2rem;
+    }
+
+    .language-menu {
+      margin-bottom: 2rem;
+    }
+
+    .language-menu a {
+      display: inline-block;
+      margin: 0 0.5rem;
+      padding: 0.4rem 0.8rem;
+      border: 1px solid #2e7d32;
+      border-radius: 6px;
+      background-color: #e5f9ec;
+      color: #2e7d32;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .language-menu a:hover {
+      background-color: #c8efd7;
+    }
+
+    .menu-links a {
+      display: inline-block;
+      margin: 0.8rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #a5d6a7;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .menu-links a:hover {
+      background-color: #81c784;
     }
   </style>
 </head>
 <body>
 
-  <div class="language-switch">
-    <img src="img/fr.png" alt="Français" title="Français">
-    <img src="img/es.png" alt="Español" title="Español">
-    <img src="img/ar.png" alt="العربية" title="العربية">
-    <img src="img/fa.png" alt="فارسی" title="فارسی">
+  <div class="language-menu">
+    <a href="index.en.html">English</a>
+    <a href="index.fr.html">Français</a>
+    <a href="index.es.html">Español</a>
+    <a href="index.ar.html">العربية</a>
+    <a href="index.fa.html">فارسی</a>
   </div>
 
-  <nav>
-    <a href="books/roshani.html">کتاب روشنی</a>
-    <a href="texts.html">آثار و نوشته‌ها</a>
-    <a href="music.html">موسیقی</a>
-    <a href="stories.html">داستان</a>
-    <a href="contact.html">تماس</a>
-  </nav>
+  <h1>Welcome to Horia</h1>
+  <p>This is a home for kindness, wisdom, freedom, and light.</p>
 
-  <h1>به هوریا خوش آمدید</h1>
-  <p>اینجا سرایی است برای مهر، خرد، آزادی و روشنایی.</p>
+  <div class="menu-links">
+    <a href="book.html">The Book of Light</a>
+    <a href="works.html">Writings</a>
+    <a href="music.html">Music</a>
+    <a href="stories.html">Stories</a>
+    <a href="contact.html">Contact</a>
+  </div>
 
 </body>
 </html>
