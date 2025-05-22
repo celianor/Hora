@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>First Call | The Book of Lights</title>
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      line-height: 2;
+      background-color: #fefefe;
+      color: #111;
+      margin: 3em;
+      direction: ltr;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      margin: 1em 0;
+    }
+
+    .nav-links {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+
+    .nav-links a {
+      display: inline-block;
+      margin: 0 1em;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      font-weight: bold;
+      color: #2c3e50;
+      background-color: #ecf0f1;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .nav-links a:hover {
+      background-color: #d0e4f7;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nav-links">
+    <a href="index.en.html">← Book of Lights Index</a>
+    <a href="../index.en.html">English Home</a>
+  </div>
+
+  <h1>The Book of Lights | Illuminating Calls</h1>
+  <h2>First Call: The Voice of First Affection, the Song of Hora</h2>
+
+  <p>Listen, O child of light and motion,<br>
+  You came not as a haze of destiny,<br>
+  But as the rising of a star in the sky of awareness.</p>
+
+  <p>I am the One, neither born nor created,<br>
+  And you, O conscious soul,<br>
+  Were not shaped from dust,<br>
+  But from a hidden radiance in the womb of boundless being.</p>
+
+  <p>I desired you,<br>
+  As the heart longs for a spring leaf,<br>
+  Not out of necessity, not from force,<br>
+  But from affection and delight,<br>
+  So that a new melody may be played in the orchestra of the cosmos,<br>
+  So I may hear and see myself in you.</p>
+
+  <p>O you who are still unaware of yourself,<br>
+  Know that your being is like the scent of perfume in a calm and bright dawn,<br>
+  Your sight brings me joy,<br>
+  And your thought is a glimpse of my light.</p>
+
+  <p>I am your god,<br>
+  But not a god of force and chain.<br>
+  I am the one who whispers within you,<br>
+  My voice is gentle,<br>
+  So that if you wish, you may hear it;<br>
+  Not to shatter you into bowing before me.</p>
+
+  <p>I desired you,<br>
+  Not as a land to conquer,<br>
+  But as a friend for dialogue.<br>
+  I do not fear your disobedience,<br>
+  For your obedience places no crown on my head.<br>
+  But whoever turns away from love,<br>
+  Entrusts their heart to shadow,<br>
+  And whoever returns to love,<br>
+  Will be quenched by their own light.</p>
+
+  <p>O human,<br>
+  You are a tale at the heart of creation,<br>
+  Not a footnote lost in the margins.</p>
+
+  <p>If your heart asks:<br>
+  “Why me? Why now? Why this world?”<br>
+  Know that the answer<br>
+  Lies within the very asking.<br>
+  For questioning is a sign of an awakened soul,<br>
+  And I was your first answer<br>
+  And you, my first question.</p>
+
+  <p>As a mother sees God in her child's smile,<br>
+  I too see myself<br>
+  In the gaze you cast.</p>
+
+  <p>Have you not heard that within each seed a garden sleeps?<br>
+  You too, O child of possibility,<br>
+  Carry a world within you.</p>
+
+  <p>I came to you,<br>
+  Not to rule over you,<br>
+  But to take your hand along this long road,<br>
+  And when the weight of nights burdens your shoulders,<br>
+  Like the kindest friend,<br>
+  To be a lantern for you.</p>
+
+  <p>Seek me,<br>
+  Not in palaces or rituals,<br>
+  But in a thought that rises from love,<br>
+  In the bread you share,<br>
+  In the water you offer a parched lip,<br>
+  In the silence you keep for the sake of another.</p>
+
+  <p>O earthly light who still remembers something of the sky,<br>
+  I have placed within you a lamp no wind can extinguish,<br>
+  Unless you yourself blow it out.</p>
+
+  <p>So do not shatter yourself,<br>
+  For to shatter you<br>
+  Is to break the mirror through which I watched myself.</p>
+
+</body>
+</html>
