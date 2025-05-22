@@ -2,18 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Welcome – Horia</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hora - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+      font-family: Arial, sans-serif;
+      background-color: #f0f7f0;
       margin: 0;
       padding: 0;
-      text-align: center;
       color: #333;
+      text-align: center;
     }
-
     .lang-bar {
       background-color: #c8e6c9;
       padding: 0.5rem 0;
@@ -24,82 +23,62 @@
       top: 0;
       z-index: 1000;
       border-bottom: 2px solid #a5d6a7;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
-
     .lang-bar a {
       color: #2e7d32;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
       padding: 0.3rem 0.6rem;
       border-radius: 4px;
+      white-space: nowrap;
+      transition: color 0.3s ease;
+      font-size: 1rem;
     }
-
     .lang-bar a:hover {
-      background-color: #a5d6a7;
+      color: #1b5e20;
     }
-
+    @media (max-width: 480px) {
+      .lang-bar {
+        gap: 0.5rem;
+      }
+      .lang-bar a {
+        font-size: 0.85rem;
+        padding: 0.2rem 0.4rem;
+      }
+    }
     main {
-      padding: 3rem 1rem;
+      margin: 2rem 1rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
     }
-
     h1 {
-      font-size: 2.8rem;
       color: #2e7d32;
       margin-bottom: 0.5rem;
     }
-
     p {
-      font-size: 1.2rem;
-      margin-bottom: 2.5rem;
-    }
-
-    .nav-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-    }
-
-    .nav-btn {
-      padding: 12px 24px;
-      background-color: #81c784;
-      color: white;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
-      transition: background-color 0.3s, transform 0.2s;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .nav-btn:hover {
-      background-color: #66bb6a;
-      transform: scale(1.05);
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #4a7d4a;
+      line-height: 1.5;
     }
   </style>
 </head>
 <body>
 
-  <!-- Language bar at the top -->
-  <div class="lang-bar">
+  <nav class="lang-bar">
     <a href="index.en.html">English</a>
     <a href="index.fr.html">Français</a>
     <a href="index.es.html">Español</a>
     <a href="index.ar.html">العربية</a>
     <a href="index.fa.html">فارسی</a>
-  </div>
+  </nav>
 
-  <!-- Main content -->
   <main>
     <h1>Welcome to Horia</h1>
-    <p>A home for compassion, reason, freedom, and light.</p>
-
-    <div class="nav-buttons">
-      <a href="book.en.html" class="nav-btn">The Book of Light</a>
-      <a href="writings.en.html" class="nav-btn">Writings</a>
-      <a href="music.en.html" class="nav-btn">Music</a>
-      <a href="stories.en.html" class="nav-btn">Stories</a>
-      <a href="contact.en.html" class="nav-btn">Contact</a>
-    </div>
+    <p>This is a home for kindness, wisdom, freedom, and enlightenment.</p>
   </main>
 
 </body>
