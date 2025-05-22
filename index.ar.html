@@ -1,98 +1,176 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="ar">
- <head>
-  <meta charset="utf-8"/>
-  <title>
-   Horia
-  </title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>هوريـا - الصفحة الرئيسية</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-   body {
-    font-family: sans-serif;
-    background-color: #d4edda;
-    padding: 2rem;
-    text-align: center;
-    color: #222;
-  }
-  .lang-menu {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    font-size: 0.9rem;
-  }
-  nav {
-    margin-top: 3rem;
-  }
-  nav a {
-    display: inline-block;
-    margin: 0.5rem 1rem;
-    text-decoration: none;
-    color: #006400;
-    font-weight: bold;
-  }
-
-.language-menu a {
-  display: inline-block;
-  margin: 0 0.3rem;
-  padding: 0.3rem 0.6rem;
-  background-color: rgba(255, 255, 255, 0.6);
-  color: #333;
-  border: 1px solid #aaa;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 0.9rem;
-  transition: background-color 0.3s;
-}
-.language-menu a:hover {
-  background-color: rgba(255, 255, 255, 0.9);
-}
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f7f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      text-align: right;
+      direction: rtl;
+    }
+    .lang-bar {
+      background-color: #c8e6c9;
+      padding: 0.5rem 0;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 2px solid #a5d6a7;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .lang-bar a {
+      color: #2e7d32;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.3rem 0.6rem;
+      border-radius: 4px;
+      white-space: nowrap;
+      transition: color 0.3s ease;
+      font-size: 1rem;
+    }
+    .lang-bar a:hover {
+      color: #1b5e20;
+    }
+    @media (max-width: 480px) {
+      .lang-bar {
+        gap: 0.5rem;
+      }
+      .lang-bar a {
+        font-size: 0.85rem;
+        padding: 0.2rem 0.4rem;
+      }
+    }
+    main {
+      margin: 2rem 1rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #4a7d4a;
+      text-align: right;
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+    h1 {
+      color: #2e7d32;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    p {
+      font-weight: 600;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .main-menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .main-menu a {
+      background-color: #a5d6a7;
+      color: #1b5e20;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease;
+      min-width: 140px;
+    }
+    .main-menu a:hover {
+      background-color: #81c784;
+      color: #145214;
+    }
+    @media (max-width: 480px) {
+      .main-menu a {
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem;
+        min-width: 120px;
+      }
+    }
+    .subheader {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 1rem;
+      font-style: italic;
+      color: #388e3c;
+    }
+    .content {
+      margin-top: 2rem;
+    }
+    ol {
+      padding-right: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.8rem;
+    }
   </style>
- </head>
- <body>
-  <div class="lang-menu">
-   <a href="index.en.html">
-    English
-   </a>
-   |
-   <a href="index.fr.html">
-    Français
-   </a>
-   |
-   <a href="index.es.html">
-    Español
-   </a>
-   |
-   <a href="index.ar.html">
-    العربية
-   </a>
-   |
-   <a href="index.fa.html">
-    فارسی
-   </a>
-  </div>
-  <h1>
-   مرحبًا بكم في هوريا
-  </h1>
-  <p>
-   هذا بيت للطيبة والعقل والحرية والوضوح.
-  </p>
-  <nav>
-   <a href="#">
-    كتاب النور
-   </a>
-   <a href="#">
-    كتابات
-   </a>
-   <a href="#">
-    موسيقى
-   </a>
-   <a href="#">
-    قصص
-   </a>
-   <a href="#">
-    اتصل بنا
-   </a>
+</head>
+<body>
+
+  <nav class="lang-bar">
+    <a href="index.en.html">English</a>
+    <a href="index.fr.html">Français</a>
+    <a href="index.es.html">Español</a>
+    <a href="index.ar.html">العربية</a>
+    <a href="index.fa.html">فارسی</a>
   </nav>
- </body>
+
+  <main>
+    <h1>دين المحبّة والعقل</h1>
+    <p>هذه دار للرحمة، والعقل، والحرية، والنور.</p>
+
+    <div class="main-menu">
+      <a href="roshani.html">كتاب النور</a>
+      <a href="works.html">الكتابات</a>
+      <a href="music.html">الموسيقى</a>
+      <a href="stories.html">القصص</a>
+      <a href="contact.html">اتّصال</a>
+    </div>
+
+    <div class="subheader">
+      هنا تجد طريقاً نحو الحكمة، والرحمة، والحرية — خُطوةٌ شُجاعة إلى النور.
+    </div>
+
+    <h1>أهلاً بك في هوريا</h1>
+
+    <div class="content">
+      هوريا فلسفةٌ مبنيّة على فهمٍ أعمق للعالم والإنسان، وعلى الإيمان بإلهٍ واحد يُدعى "هُرا".  
+      هُرا هو إله الحقيقة، والنور، والعدالة — مصدر كل خير وكمال، يفيض على الوجود بالنور اللامحدود، ويمنحه المعنى.  
+      الله يتجاوز كل صورة ذهنية، وخارج عن الزمان والمكان، يدعونا إلى درب المحبة والعقل.
+
+      <br><br>
+
+      يُعلّم دين هوريا أن الإنسان كائنٌ مركّب، يعيش في ثلاثة عوالم متصلة:
+
+      <ol>
+        <li><strong>العالم السابق:</strong> عالمٌ روحي وسابق للوجود، خُلقت فيه الروح، وهو الأصل الأول للكينونة.</li>
+        <li><strong>العالم الحاضر:</strong> العالم المادي — ميدان التجربة والسعي والنمو.</li>
+        <li><strong>العالم اللاحق:</strong> الحياة بعد الموت، امتدادٌ للتطور واستمرارٌ للوجود الحقيقي.</li>
+      </ol>
+
+      يعلّم هوريا أن البشر مسؤولون عن كرامتهم، وعن كرامة كل حيّ، وأنهم يحملون فيهم نور العقل الجماعي.  
+      يدعونا إلى معرفة أنفسنا، والتواصل مع أصلنا، والعمل على الخير في هذا العالم الحاضر، استعداداً للعالم الآتي.
+
+      <br><br>
+
+      هوريا إيمانٌ ومنهجُ حياة، يدعونا إلى وعي الذات، والتعايش السلمي، ونشر العدل والخير.  
+      هو دربٌ يُضيئهُ هُرا، يقودُ إلى مستقبلٍ أكثر إنسانية.
+    </div>
+  </main>
+
+</body>
 </html>
